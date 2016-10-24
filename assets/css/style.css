@@ -1,0 +1,79 @@
+mark {
+    background-color: black;
+    color: white;
+}
+#logo {
+	align-self: center;
+}
+
+
+
+
+/*Tangents*/
+h6 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem;
+	margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    width: 100%;
+}
+a {
+  color: inherit; 
+  text-decoration: inherit; 
+}
+
+#ill-will {
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+	background-color: #24505a;
+	color: #cdbd6f;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem; 
+    line-height: 3rem;  
+    width: 150px;
+	height: 100%;
+}
+
+#flyover {
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    /*vertical-align: middle;*/
+    text-align: left;
+  	font-size: 1.8rem; 
+  	line-height: 3.6rem;  
+  	letter-spacing: .1rem;
+    font-size: 32px;
+    background-color: #bc3b14;
+    color: white;
+   	width: 162px;
+	height: 75px;
+}
+/*
+ill-will editions heading:;
+    color: #cdbd6f;
+    font-weight: bold;
+    text-align: center;
+    font-size: 85px;
+    line-height: 90%;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+h1, h3 {
+    font-family: Futura;
+}
+
+flyover infoshop heading:;
+.site-title {
+    font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	letter-spacing: .19em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 1.9rem;
+    background-color: #bc3b14;
+    color: white;
+}
+*/
