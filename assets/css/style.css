@@ -1,27 +1,31 @@
+.blocks {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+#logo {
+    align-self: center;
+}
+
+
 mark {
     background-color: black;
     color: white;
 }
-#logo {
-	align-self: center;
-}
 
-
-
-
-/*Tangents*/
 h6 {
+  }
+
+#heading {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
-	margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 300;
-    width: 100%;
-}
-a {
-  color: inherit; 
-  text-decoration: inherit; 
+    height: 100%;  
 }
 
 #ill-will {
@@ -34,6 +38,7 @@ a {
     line-height: 3rem;  
     width: 150px;
 	height: 100%;
+    text-decoration: none;
 }
 
 #flyover {
@@ -49,31 +54,8 @@ a {
     color: white;
    	width: 162px;
 	height: 75px;
+    text-decoration: none;
 }
+
 /*
-ill-will editions heading:;
-    color: #cdbd6f;
-    font-weight: bold;
-    text-align: center;
-    font-size: 85px;
-    line-height: 90%;
-    margin-bottom: 30px;
-    margin-top: -30px;
-}
 
-h1, h3 {
-    font-family: Futura;
-}
-
-flyover infoshop heading:;
-.site-title {
-    font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  	letter-spacing: .19em;
-    text-transform: uppercase;
-    vertical-align: middle;
-    font-weight: 300;
-    font-size: 1.9rem;
-    background-color: #bc3b14;
-    color: white;
-}
-*/
