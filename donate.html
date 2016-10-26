@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Bricolage Centro Social </title>
   <meta name="description" content="">
   <meta name="author" content="">
-
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#2F3BA2">
-
+  <meta name="theme-color" content="#2F3BA2">
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Trirong" rel="stylesheet">
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/skeleton.css">
   <link rel="stylesheet" href="assets/css/style.css">
-
-
 </head>
+
 <body>
   <!-- Header & Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
   <header id="masthead">
     <div class="container">
-     <h1>Bricolage</h1>
+      <h1>Bricolage</h1>
       <nav>
         <ul>
           <a class="blocks" href="index.html">[ Main | Portada ]</a>
@@ -46,31 +41,59 @@
       </nav>
     </div>
   </header>
-
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
       <div id="background" class="ten columns" style="margin-top: 0%">
-        <h5>Coming Soon!</h5>
+        <h5>Paypal</h5>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <table>
+            <tr>
+              <td>
+                <input type="hidden" name="on0" value="Monthly contribution options">Monthly contribution options</td>
+            </tr>
+            <tr>
+              <td>
+                <select name="os0">
+                  <option value="Option 1">Option 1 : $5.00 USD - monthly</option>
+                  <option value="Option 2">Option 2 : $10.00 USD - monthly</option>
+                  <option value="Option 3">Option 3 : $15.00 USD - monthly</option>
+                  <option value="Option 4">Option 4 : $25.00 USD - monthly</option>
+                  <option value="Option 5">Option 5 : $50.00 USD - monthly</option>
+                  <option value="Option 6">Option 6 : $75.00 USD - monthly</option>
+                  <option value="Option 7">Option 7 : $100.00 USD - monthly</option>
+                  <option value="Option 8">Option 8 : $150.00 USD - monthly</option>
+                  <option value="Option 9">Option 9 : $200.00 USD - monthly</option>
+                  <option value="Option 10">Option 10 : $500.00 USD - monthly</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
       </div>
-      <div class="two columns" style="margin-top: 0%">  
-
-          <!-- Links Out
+      <div class="two columns" style="margin-top: 0%">
+        <!-- Links Out
           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <section class="sidebar">
           <div id="connect">
-          <h6 id="heading" class="blocks">[ OUR FRIENDS | NUESTROS AMIGOS ]</h6>
-
-            <div id="ill-will"><a href="http://ill-will-editions.tumblr.com/">Ill-Will Editions<!-- <img src="assets/images/tumblr3.png" class="social" alt="Ill Will Editions: multilingual zine-making project based in Berlin & Chicago"> --> </a></div><br>
-            <div id="flyover"><a href="http://flyoverinfoshop.org/"> Flyover Infoshop<!-- <img src="assets/images/flyoverinfoshop.png" class="social" alt="Flyover Infoshop: a social space in Carbondale"> --></a></div>
+            <h6 id="heading" class="blocks">[ OUR FRIENDS | NUESTROS AMIGOS ]</h6>
+            <div id="ill-will"><a href="http://ill-will-editions.tumblr.com/">Ill-Will Editions</a></div>
+            <br>
+            <div id="flyover"><a href="http://flyoverinfoshop.org/"> Flyover Infoshop</a></div>
           </div>
         </section>
       </div>
     </div>
   </div>
-
-<!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
