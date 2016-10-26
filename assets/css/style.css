@@ -1,61 +1,68 @@
 .blocks {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    line-height: 1.5;
-    text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 #logo {
-    align-self: center;
+  align-self: center;
 }
-
 
 mark {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
-h6 {
-  }
-
 #heading {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    letter-spacing: -.05rem;
-    margin-bottom: 2rem;
-    font-weight: 300;
-    height: 100%;  
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  height: 100%;
 }
 
 #ill-will {
-	font-family: Futura, Trebuchet MS, Arial, sans-serif;
-	background-color: #24505a;
-	color: #cdbd6f;
-    font-weight: bold;
-    text-align: center;
-    font-size: 3rem; 
-    line-height: 3rem;  
-    width: 150px;
-	height: 100%;
-    text-decoration: none;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  background-color: #24505a;
+  color: #cdbd6f;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  width: 150px;
+  height: 100%;
+  text-decoration: none;
 }
 
 #flyover {
-	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    /*vertical-align: middle;*/
-    text-align: left;
-  	font-size: 1.8rem; 
-  	line-height: 3.6rem;  
-  	letter-spacing: .1rem;
-    font-size: 32px;
-    background-color: #bc3b14;
-    color: white;
-   	width: 162px;
-	height: 75px;
-    text-decoration: none;
+  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  /*vertical-align: middle;*/
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  letter-spacing: .1rem;
+  font-size: 32px;
+  background-color: #bc3b14;
+  color: white;
+  width: 162px;
+  height: 75px;
+  text-decoration: none;
 }
 
-/*
 
+/*Page Specific Media Queries*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #event-calendar {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
